@@ -33,7 +33,7 @@
 
     a {
       text-transform: uppercase;
-      color: #505353;
+      color: $color_header;
       -webkit-text-stroke-width: 0.5px;
       border-radius: 17px;
       @include font_Open(bold, 14px);
@@ -66,7 +66,7 @@
       letter-spacing: -0.05em;
       height: 50px;
       margin-top: 10px;
-      @include font_UTM(600, 20px, #505353);
+      @include font_UTM(600, 20px, $color_header);
     }
 
     .btn-start {
@@ -83,7 +83,7 @@
       }
     }
   }
-  
+
   .block-messenger {
     position: fixed;
     bottom: 90px;
@@ -119,7 +119,7 @@
       }
 
       .text-alert {
-        color: #505353;
+        color: $color_header;
         margin-left: 5%;
       }
 

@@ -1,4 +1,5 @@
 $main_color : #B2D235;
+$color_header: #505353;
 
 @mixin font_UTM($weight, $size, $color) {
   font: $weight $size UTM-BryantLG;
