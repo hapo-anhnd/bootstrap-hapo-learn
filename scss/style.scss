@@ -54,12 +54,12 @@
     margin-left: 40px;
 
     .txt-banner {
-      @include font_UTM(bold, 50px, #11114E);
+      @include font_UTM(bold, 50px, $color_nav);
     }
 
     .txt-title {
       -webkit-text-stroke-width: 2px;
-      @include font_UTM(bold, 50px, #11114E);
+      @include font_UTM(bold, 50px, $color_nav);
     }
 
     .txt-desc {
@@ -172,6 +172,115 @@
   height: 170px;
   background-image: linear-gradient(white, #E5E5E5);
 }
+
+%block {
+  .content-courses {
+    letter-spacing: -0.05em;
+
+    .head {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+      border-radius: 15px 15px 0 0;
+    }
+
+    .img-courses {
+      width: 100%;
+      height: 125px;
+      padding: 0 52px;
+      margin: 40px 0;
+    }
+
+    .background-left {
+      background-color: #3F6185;
+    }
+
+    .background-middle {
+      background-color: #DC594C;
+    }
+
+    .background-right {
+      background-color: #556598;
+    }
+    
+    .foot {
+      border-radius: 0 0 15px 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.25)
+    }
+
+    .txt-content {
+      -webkit-text-stroke-width: 1px;
+      @include font_UTM(bold, 30px, $main_color);
+    }
+
+    .txt-des {
+      line-height: 20px;
+      padding: 0 25px;
+      @include font_UTM(bold, 14px, $color_header);
+    }
+
+    a {
+      background: $main_color;
+      box-shadow: inset 0 1.5px 2px #6F8710;
+      border-radius: 22px;
+      padding: 10px 45px;
+      margin: 22px 0 45px 0;
+      -webkit-text-stroke-width: 1px;
+      @include font_UTM(bold, 18px, #FFFFFF);
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+.block-courses {
+  @extend %block;
+
+  margin-top: -100px; 
+}
+
+.other-courses {
+  @extend %block;
+
+  .background-left-other {
+    background-color: #24ABE2;
+  }
+
+  .background-middle-other {
+    background-color: #E14E40;
+  }
+
+  .background-right-other {
+    background-color: #1B75BB;
+  }
+
+  .title-courses {
+    -webkit-text-stroke-width: 2px;
+    margin-bottom: 50px;
+    @include font_UTM(bold, 80px, $color_nav);
+
+    hr {
+      width: 45%;
+      border: 3px solid $main_color;
+      margin: 15px auto;
+      border-radius: 3px;
+    }
+  }
+
+  .all-courses {
+    height: 30px;
+    margin-top: 50px;
+
+    a {
+      text-decoration: none;
+      -webkit-text-stroke-width: 2px;
+      @include font_UTM(bold, 40px, #90AB26);
+      &:hover {
+        font-size: 50px;
+      }
+    }
+  }
+}
+
   
 
 @import 'responsive';
