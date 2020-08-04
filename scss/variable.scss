@@ -1,0 +1,12 @@
+$main_color : #B2D235;
+$color_header: #505353;
+$color_nav :#11114E;
+
+@mixin font_UTM($weight, $size, $color) {
+  font: $weight $size UTM-BryantLG;
+  color: $color;
+}
+
+@mixin font_Open($weight, $size) {
+  font: $weight $size Open-Sans;
+}

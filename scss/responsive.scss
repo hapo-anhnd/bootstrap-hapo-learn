@@ -1,0 +1,290 @@
+@import 'variable';
+@media only screen and (max-width: 768px) {
+  .header {
+    .img-logo {
+      width: 300px;
+      height: 62px;
+    }
+
+    .header-right {
+      margin-top: 10px;
+
+      li {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+
+    .menu {
+      a:hover {
+        color: white;
+        background: $main_color;
+      }
+    }
+  }
+
+  .banner {
+    height: 350px;
+
+    .block-banner {
+      transform: translateY(25%);
+      margin-left: 30px;
+
+      .txt-banner {
+        @include font_UTM(bold, 30px, $color_nav);
+      }
+
+      .txt-title {
+        @include font_UTM(bold, 30px, $color_nav);
+      }
+
+      .img-title {
+        width: 34px;
+        height: 34px;
+      }
+
+      .txt-desc {
+        letter-spacing: -0.05em;
+        height: 50px;
+        @include font_UTM(600, 20px, $color_header);
+      }
+
+      .btn-start {
+        padding: 12px 40px;
+        margin-top: 20px;
+        @include font_UTM(bold, 16px, #FFFFFF);
+      }
+    }
+  }
+
+  %block-md {
+    .content-courses {
+      .img-courses {
+        height: 80px;
+        padding: 0 25px;
+        margin: 28px 0;
+      }
+
+      .txt-content {
+        @include font_UTM(bold, 20px, #B2D235);
+      }
+
+      .txt-des {
+        line-height: 18px;
+        letter-spacing: -0.05em;
+        padding: 0 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 4;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        @include font_UTM(bold, 14px, $color_header);
+      }
+
+      a {
+        padding: 5px 20px; 
+        margin: 10px 0 18px 0;
+        -webkit-text-stroke-width: 0;
+        @include font_UTM(bold, 10px, #FFFFFF);
+      }
+    }
+  }
+
+  .block-courses {
+    @extend %block-md;
+  }
+
+  .other-courses {
+    @extend %block-md;
+
+    .title-courses {
+      margin-bottom: 40px;
+      @include font_UTM(bold, 50px, $color_nav);
+    }
+
+
+    .all-courses {
+      margin-top: 25px;
+
+      a {
+        font-size: 28px;
+        &:hover {
+          font-size: 30px;
+        }
+      }
+
+      img {
+        width: 34px;
+        height: 19px;
+      }
+    }
+  }
+
+  .reason {
+    .head-reason {
+      margin-top: -150px;
+    }
+
+    .title-reason {
+      font-size: 50px;
+    }
+
+    .text-reason {
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -0.05em;
+    }
+
+    .right-reason {
+      margin: 0;
+    }
+  }
+
+  .learn {
+    .txt-learn {
+      font-size: 35px;
+      padding-top: 50px;
+    }
+
+    .btn-start-learn {
+      font-size: 20px;
+    }
+
+    a {
+      margin-bottom: 60px;
+    }
+  }
+
+  .statistic {
+    .title-statistic {
+      span {
+        @include font_UTM(bold, 50px, $color_nav);
+      }
+
+      hr {
+        width: 25%;
+      }
+    }
+
+    .content-statistic {
+      @include font_UTM(bold, 40px, #B2D235);
+    }
+  }
+
+  .footer {
+    .block-foot {
+      margin: 20px 0;
+    }
+
+    .logo {
+      .txt-logo {
+        margin-left: 0;
+        line-height: 25px;
+        font-size: 16px;
+      }
+    }
+
+    .menu {
+      ul {
+        margin: 0 12px; 
+      }
+
+      li {
+        margin: 10px 0;
+      }
+
+      a {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .header {
+    .img-logo {
+      width: 150px;
+      height: 27px;
+      transform: translateY(-100%);
+    }
+
+    .menu {
+      a {
+        text-align: center;
+        &:hover {
+          color: $main_color;
+          background: #FFFFFF;
+        }
+      }
+    }
+  }
+
+  .banner {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
+    .block-banner {
+      transform: translateY(100%);
+      margin-left: 0;
+
+      .txt-banner {
+        @include font_UTM(bold, 30px, $color_nav);
+      }
+
+      .txt-title {
+        @include font_UTM(bold, 30px, $color_nav);
+      }
+
+      .img-title {
+        width: 34px;
+        height: 34px;
+      }
+
+      .txt-desc {
+        letter-spacing: -0.05em;
+        height: 50px;
+        @include font_UTM(600, 20px, $color_header);
+      }
+
+      .btn-start {
+        padding: 12px 40px;
+        margin-top: 20px;
+        @include font_UTM(bold, 18px, #FFFFFF);
+      }
+
+      a {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+
+  .color-strip {
+    height: 320px;
+  }
+
+
+
+  .footer {
+    height: 370px;
+
+    .logo {
+      .txt-logo {
+        line-height: 17px;
+        font-size: 14px;
+      }
+    }
+    
+    .menu {
+      ul {
+        margin: -40px 0 40px 0;
+      }
+    }
+
+    .contact {
+      padding-top: 10px;
+    }
+  }
+}
+
