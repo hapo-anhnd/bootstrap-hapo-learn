@@ -298,6 +298,21 @@
       @include font_UTM(bold, 40px, #11114E);
     }
   }
+  .reason {
+    .head-reason {
+      margin-top: -100px;
+    }
+
+    .title-reason {
+      font-size: 40px;
+      margin: 20px 0 0 -40px;
+    }
+
+    .text-reason {
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
 
   .footer {
     height: 370px;
