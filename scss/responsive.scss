@@ -314,9 +314,32 @@
     }
   }
 
+  .learn {
+    .txt-learn {
+      font-size: 23px;
+      padding-top: 30px;
+    }
+
+    .btn-start-learn {
+      font-size: 18px;
+      width: 60%;
+    }
+
+    a {
+      margin-bottom: 50px;
+    }
+  }
+
+  .statistic {
+    .title-statistic {
+      hr {
+        width: 40%;
+      }
+    }
+  }
+
   .footer {
     height: 370px;
-
     .logo {
       .txt-logo {
         line-height: 17px;
@@ -335,4 +358,3 @@
     }
   }
 }
-
