@@ -203,9 +203,9 @@
 @media only screen and (max-width: 425px) {
   .header {
     .img-logo {
-      width: 150px;
-      height: 27px;
-      transform: translateY(-100%);
+      width: 160px;
+      height: 35px;
+      transform: translateY(0%);
     }
 
     .menu {
@@ -340,6 +340,7 @@
 
   .footer {
     height: 370px;
+    
     .logo {
       .txt-logo {
         line-height: 17px;

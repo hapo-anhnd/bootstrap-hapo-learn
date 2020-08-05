@@ -11,5 +11,8 @@ $(document).ready(function(){
     $('.close').click(function() {
         $('.toggle-class').hide();
     });
+
+    $('[data-toggle="tooltip"]').tooltip();
 });
+
 
