@@ -255,7 +255,8 @@
       font-size: 14px; }
     .footer .menu ul {
       margin: -40px 0 40px 0; }
+    .footer .contact-s {
+      margin-top: -15px; }
     .footer .contact {
-      padding-top: 10px; } }
-
+      padding-top: 0; } }
 /*# sourceMappingURL=responsive.css.map */

@@ -296,6 +296,10 @@
     @include font_UTM(bold, 70px, #FFFFFF);
   }
 
+  .left-reason {
+    text-align: right;
+  }
+
   .text-reason {
     @include font_UTM(normal, 20px, #FFFFFF);
     line-height: 25px;
