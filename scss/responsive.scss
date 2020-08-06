@@ -148,7 +148,7 @@
 
       .txt-decs {
         line-height: 22px;
-        @include font_UTM(normal, 18px, #505353);
+        @include font_UTM(normal, 18px, $color_header);
       }
     }
 
@@ -327,7 +327,7 @@
 
     .title-courses {
       margin-bottom: 20px;
-      @include font_UTM(bold, 40px, #11114E);
+      @include font_UTM(bold, 40px, $color_nav);
     }
   }
   .reason {
@@ -359,7 +359,7 @@
       .txt-decs {
         line-height: 22px;
         letter-spacing: -0.01em;
-        @include font_UTM(normal, 19px, #505353);
+        @include font_UTM(normal, 19px, $color_header);
       }
     }
 

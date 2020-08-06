@@ -316,20 +316,20 @@
 
     .txt-title {
       -webkit-text-stroke-width: 2px;
-      @include font_UTM(bold, 80px, #11114E);
+      @include font_UTM(bold, 80px, $color_nav);
     }
 
     hr {
       width: 30%;
       height: 6px;
       margin: 15px auto;
-      background-color: #B2D235;
+      background-color: $main_color;
       border-radius: 3px;
     }
 
     .txt-decs {
       margin-top: -100px;
-      @include font_UTM(normal, 25px, #505353);
+      @include font_UTM(normal, 25px, $color_header);
     }
   }
 
@@ -368,11 +368,11 @@
     }
 
     .txt-name {
-      @include font_UTM(bold, 20px, #11114E);
+      @include font_UTM(bold, 20px, $color_nav);
     }
 
     .txt-lang {
-      @include font_UTM(bold, 16px, #505353);
+      @include font_UTM(bold, 16px, $color_header);
     }
 
     i {
@@ -439,28 +439,28 @@
   .title-statistic {
     span {
       -webkit-text-stroke-width: 2px;
-      @include font_UTM(bold, 80px, #11114E);
+      @include font_UTM(bold, 80px, $color_nav);
     }
 
     hr {
       width: 25%;
-      border: 3px solid #B2D235;
+      border: 3px solid $main_color;
       margin: 15px auto;
       border-radius: 3px;
     }
   }
 
   .content-statistic {
-    @include font_UTM(bold, 60px, #B2D235);
+    @include font_UTM(bold, 60px, $main_color);
 
     .title {
-      color: #505353;
+      color: $color_header;
     }
   }
 }
 
 .footer {
-  background-color: #505353;
+  background-color: $color_header;
   
   .block-foot {
     width: 100%;
