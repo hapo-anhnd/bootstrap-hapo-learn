@@ -213,6 +213,8 @@
   .reason .text-reason {
     font-size: 14px;
     line-height: 17px; }
+    .reason .text-reason .tic {
+      width: 15px !important; }
 
   .feedback .title-feedback .txt-title {
     font-size: 40px; }
@@ -259,4 +261,5 @@
       margin-top: -15px; }
     .footer .contact {
       padding-top: 0; } }
+
 /*# sourceMappingURL=responsive.css.map */
