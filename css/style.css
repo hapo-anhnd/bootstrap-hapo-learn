@@ -294,6 +294,7 @@
     -webkit-text-stroke-width: 1px;
     padding: 10px 33px;
     width: 377px;
+    border: 0;
     font: bold 30px UTM-BryantLG;
     color: #90AB26; }
     .learn .btn-start-learn:hover {

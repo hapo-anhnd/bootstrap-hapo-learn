@@ -428,6 +428,7 @@
     -webkit-text-stroke-width: 1px;
     padding: 10px 33px;
     width: 377px;
+    border: 0;
     @include font_UTM(bold, 30px, #90AB26);
     &:hover {
       opacity: 0.8;
@@ -511,6 +512,8 @@
         margin-left: -40px;
       }
     }
+
+    
   }
 }
 
