@@ -208,7 +208,8 @@
     font: bold 70px UTM-BryantLG;
     color: #FFFFFF; }
   .reason .left-reason {
-    text-align: right; }
+    text-align: right;
+    margin-top: -20px; }
   .reason .text-reason {
     font: normal 20px UTM-BryantLG;
     color: #FFFFFF;
@@ -620,5 +621,4 @@
       margin-top: -15px; }
     .footer .contact {
       padding-top: 0; } }
-
 /*# sourceMappingURL=style.css.map */
